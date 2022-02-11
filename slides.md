@@ -24,6 +24,8 @@ clicks: 2
   </div>
 </div>
 
+<div class="opacity-70">~ラムダとラクダの違い~</div>
+
 <p class="opacity-50">その謎を解明するため、我々調査隊はアマゾンの奥地へと向かった</p>
 
 <div class="pt-12">

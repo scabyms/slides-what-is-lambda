@@ -1,0 +1,17 @@
+{
+  "name": "what-is-lambda",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.28.5",
+    "@slidev/theme-default": "*",
+    "playwright-chromium": "^1.18.1"
+  },
+  "devDependencies": {
+    "@iconify-json/mdi": "^1.0.17"
+  }
+}

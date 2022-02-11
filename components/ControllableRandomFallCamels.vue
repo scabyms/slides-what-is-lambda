@@ -1,18 +1,17 @@
 <template>
   <random-fall-texts
-    text="🐫"
     :speed="speed"
     :max="max / 2"
     :interval="interval * 2"
     class="text-6xl opacity-50"
-  />
+  >🐫</random-fall-texts>
   <random-fall-texts
     text="🐪"
     :speed="speed"
     :max="max / 2"
     :interval="interval * 2"
     class="text-6xl opacity-50"
-  />
+  >🐪</random-fall-texts>
   <div class="absolute grid gap-2 grid-cols-2 text-right opacity-40" style="bottom: 60px; left: 0px;">
     <div class="col-span-2">ラクダ調節機能</div>
     <div>

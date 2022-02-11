@@ -8,13 +8,12 @@
     :scale="fallText.scale"
     :speed="props.speed"
     v-bind="$attrs"
-  >{{ text }}</fall-text>
+  ><slot></slot></fall-text>
 </template>
 
 <script setup lang="ts">
 import { ref, watch } from 'vue'
 const props = defineProps<{
-  text: string
   speed: number
   interval: number
   max: number

@@ -31,20 +31,18 @@ clicks: 2
 <div class="pt-12">
   <random-fall-texts
     v-if="$slidev.nav.currentPage === 1"
-    text="🐪"
     :speed="300"
     :max="50" 
     :interval="400"
     class="text-6xl opacity-50" 
-  />
+  >🐪</random-fall-texts>
   <random-fall-texts
     v-if="$slidev.nav.currentPage === 1"
-    text="🐫"
     :speed="300"
     :max="50" 
     :interval="400"
     class="text-6xl opacity-50" 
-  />
+  >🐫</random-fall-texts>
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10 scale-110">
     アマゾンの奥地へ進む <carbon:arrow-right class="inline"/>
   </span>
@@ -253,5 +251,5 @@ layout: statement
 
 # ご清聴ありがとうございました
 
-<controllable-random-fall-texts v-if="$slidev.nav.currentPage === 8" />
+<controllable-random-fall-camels v-if="$slidev.nav.currentPage === 8" />
 

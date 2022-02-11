@@ -29,20 +29,20 @@ clicks: 2
 <p class="opacity-50">その謎を解明するため、我々調査隊はアマゾンの奥地へと向かった</p>
 
 <div class="pt-12">
-  <random-fall-texts
+  <random-falls
     v-if="$slidev.nav.currentPage === 1"
     :speed="300"
     :max="50" 
     :interval="400"
     class="text-6xl opacity-50" 
-  >🐪</random-fall-texts>
-  <random-fall-texts
+  >🐪</random-falls>
+  <random-falls
     v-if="$slidev.nav.currentPage === 1"
     :speed="300"
     :max="50" 
     :interval="400"
     class="text-6xl opacity-50" 
-  >🐫</random-fall-texts>
+  >🐫</random-falls>
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10 scale-110">
     アマゾンの奥地へ進む <carbon:arrow-right class="inline"/>
   </span>

@@ -1,5 +1,5 @@
 <template>
-  <fall-text
+  <fall
     v-for="fallText in fallTexts"
     :key="fallText.id"
     :x="fallText.x"
@@ -8,7 +8,9 @@
     :scale="fallText.scale"
     :speed="props.speed"
     v-bind="$attrs"
-  ><slot></slot></fall-text>
+  >
+    <slot></slot>
+  </fall>
 </template>
 
 <script setup lang="ts">
